@@ -2,7 +2,7 @@
 
 body{
 	font-family:"Open Sans", "Segoe UI", sans-serif;
-	background:url("http://www.sigmald.com/experimentos/persiana/images/parede.jpg");
+	background:url("../images/parede.jpg");
 	background-size:170px;
 }
 #content-persiana{
@@ -32,7 +32,7 @@ body{
 	top:200px;
 	width:200px;
 	height:113px;
-	background:url("http://www.sigmald.com/experimentos/persiana/images/quadro.png");
+	background:url("../images/quadro.png");
 }
 #janela{
 	position:absolute;
@@ -70,7 +70,7 @@ body{
 #persiana .slice{
 	height:100%;
 	float:left;
-	background:url("http://www.sigmald.com/experimentos/persiana/images/persiana.jpg");
+	background:url("../images/persiana.jpg");
 	background-size:5px;
 	box-shadow:-3px 0 50px #000;
 	-webkit-transform-style:preserve-3d;
