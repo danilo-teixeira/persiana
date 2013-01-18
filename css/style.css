@@ -1,0 +1,103 @@
+@charset "utf-8";
+
+body{
+	font-family:"Open Sans", "Segoe UI", sans-serif;
+	background:url("http://www.sigmald.com/experimentos/persiana/images/parede.jpg");
+	background-size:170px;
+}
+#content-persiana{
+	position:relative;
+	margin:0 auto;
+	width:100%;
+	height:100%;
+}
+#descricao{
+	position:absolute;
+	left:50%;
+	margin-left:-250px;
+	width:500px;
+	height:150px;
+	color:#fff;
+	text-align:center;
+	border:2px solid #ccc;
+	border-radius:5px;
+	background:rgba(0, 0, 0, 0.5);
+}
+#descricao h1{
+	font-weight:normal;
+	text-transform:uppercase;
+}
+#quadro{
+	position:absolute;
+	top:200px;
+	width:200px;
+	height:113px;
+	background:url("http://www.sigmald.com/experimentos/persiana/images/quadro.png");
+}
+#janela{
+	position:absolute;
+	top:100px;
+	left:50%;
+	margin-top:100px;
+	margin-left:-350px;
+	width:700px;
+	height:400px;
+	background:#fff;
+	border:10px solid #999;
+	border-radius:10px;
+	box-shadow:0 0 10px #000;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-ms-box-sizing:border-box;
+	-o-box-sizing:border-box;
+	box-sizing:border-box;
+}
+#persiana{
+	position:relative;
+	width:100%;
+	height:100%;
+}
+#persiana #top-persiana{
+	position:absolute;
+	top:-10px;
+	left:-20px;
+	width:740px;
+	height:40px;
+	z-index:10;
+	background:#4A79B6;
+	box-shadow:0 3px 7px #000;
+}
+#persiana .slice{
+	height:100%;
+	float:left;
+	background:url("http://www.sigmald.com/experimentos/persiana/images/persiana.jpg");
+	background-size:5px;
+	box-shadow:-3px 0 50px #000;
+	-webkit-transform-style:preserve-3d;
+	-webkit-transform-origin:50%;
+	-webkit-transform:rotateY(0deg) perspective(800px);
+}
+#persiana #control{
+	position:absolute;
+	bottom:0;
+	right:-50px;
+	width:30px;
+	height:100px;
+	border-radius:5px;
+	box-shadow:0 0 7px #ccc;
+	background:rgba(22, 24, 23, 0.5);
+	cursor:pointer;
+}
+#persiana #control:before{
+	position:absolute;
+	display:block;
+	left:100%;
+	content:"Controle";
+	width:100px;
+	height:20px;
+	text-transform:uppercase;
+	color:black;
+	background:white;
+	text-align:center;
+	border-radius:5px;
+}
