@@ -16,7 +16,7 @@
 	var background = 0;
 	var backgroundSize = janela.offsetWidth;
 	var changeBackground = false;
-	var rotatationSpeed = 20;
+	var rotatationSpeed = 5;
 	var rotation = 0;
 	var images = [];
 
@@ -47,7 +47,7 @@
 
 		}
 
-	};
+	}
 
 	function createControl() {
 
@@ -93,7 +93,7 @@
 			element.style.WebkitTransform = "rotateY(" + rotation + "deg) perspective(800px)";
 		} );
 
-	};
+	}
 
 	function mouseHover(e) {
 
@@ -121,7 +121,7 @@
 				return;
 			}
 
-			rotation -= -wheel / rotatationSpeed;
+			rotation -= rotatationSpeed;
 
 			rotateSlice(rotation);
 
@@ -132,7 +132,7 @@
 				return;
 			}
 
-			rotation += wheel / rotatationSpeed;
+			rotation += rotatationSpeed;
 		
 			rotateSlice(rotation);
 
