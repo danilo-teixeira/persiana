@@ -2,7 +2,7 @@
 
 Persiana é um pequeno experimento usanado css transform e javascript.
 
-[Check out demo](http://www.sigmald.com/experimentos/persiana/index.html).
+[Check out demo](http://daniloteixeira.p.ht/experiments/persiana/).
 
 by Danilo Teixeira.
 
